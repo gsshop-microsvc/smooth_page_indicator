@@ -30,7 +30,7 @@ class ScrollingDotsEffect extends BasicIndicatorEffect {
   const ScrollingDotsEffect({
     this.activeStrokeWidth = 1.5,
     this.activeDotScale = 1.3,
-    this.maxVisibleDots = 5,
+    this.maxVisibleDots = 6,
     this.fixedCenter = false,
     double offset = 16.0,
     double dotWidth = 16.0,
@@ -42,7 +42,7 @@ class ScrollingDotsEffect extends BasicIndicatorEffect {
     double strokeWidth = 1.0,
     PaintingStyle paintStyle = PaintingStyle.fill,
   })  : assert(activeDotScale >= 0.0),
-        assert(maxVisibleDots >= 5 && maxVisibleDots % 2 != 0),
+        assert(maxVisibleDots >= 6 && maxVisibleDots % 2 != 0),
         super(
           dotWidth: dotWidth,
           dotHeight: dotHeight,
